@@ -1,0 +1,39 @@
+h1, h2{
+    color: SteelBlue;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 10000;
+    text-align: center;
+}
+
+table {
+    border: 5px solid #008080;
+    background-color: PowderBlue;
+	width: 650px;
+	margin: 0 auto;
+}
+
+th {
+    background-color: #008080;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+  }
+
+td{
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid #008080;
+    font-weight: bold;
+}
+
+.code {
+	font-family: monospace;
+    background-color: beige;
+    
+}
+
+.Name{
+    color:  #008080;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+    

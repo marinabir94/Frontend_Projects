@@ -1,0 +1,67 @@
+.navbar{
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    background-color: rgb(191, 245, 229);
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 30px 20px;
+}
+
+.navbar a{ /* All 'a' within the .navbar class */
+    text-decoration:rgb(89, 106, 201); ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+a.blue{ /* All 'a' with class 'blue' */
+    color: blue;
+}
+
+.banner{
+    background-color: lightblue;
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px 0;
+    text-shadow: 2px 0 0 rgb(89, 106, 201), -2px 0 0  rgb(89, 106, 201), 0 2px 0  rgb(89, 106, 201), 0 -2px 0  rgb(89, 106, 201), 1px 1px  rgb(89, 106, 201), -1px -1px 0  rgb(89, 106, 201), 1px -1px 0  rgb(89, 106, 201), -1px 1px 0  rgb(89, 106, 201);
+}
+
+#banner{
+    height: 400px;
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+.marina-section{
+    padding: 20px 50px;
+}
+
+#marinaders{
+    color: rgb(89, 106, 201);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    
+}
+
+
+#bulletpoints{
+    list-style-type: none;
+}
+
+.avatar{
+    background-image: url("../images/avatar.PNG");
+    background-size: cover;
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bold{
+    font-weight: 900;
+}

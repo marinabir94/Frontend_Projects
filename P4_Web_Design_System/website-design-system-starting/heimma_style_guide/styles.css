@@ -1,0 +1,139 @@
+html{
+    font-size: 20px;
+    text-align: center;
+}
+
+h1, h2{
+    font-family: 'Libre Caslon Display', serif;
+    padding-left: 1%;
+}
+
+h3{
+    padding-left: 2rem;
+}
+
+img{
+    width: 50%;
+    border: 3px solid black;
+}
+
+.container{
+    border: 3px solid black;
+    margin: 3%;
+    padding: 1%;
+}
+
+.color-box{
+    display: inline-block;
+    width: 24%;
+    height: 15em;
+    padding-top: 8em;
+    text-align: center;
+    margin: 0.2rem 0.1rem;
+    border: 3px solid black;
+    font-family: 'Libre Caslon Display', serif;
+}
+
+.text-box{
+    padding: 0.5rem;
+    /*display: inline-block;*/
+    width: 45%;
+    height: 40%;
+    text-align: left;
+    margin: 0.3rem;
+}
+
+.colorcode{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+/*Palette 1*/
+.ocre{
+    background-color: #fdb41f;
+    color:black;
+}
+
+.cadetblue {
+    background-color: #6e8a71;
+    color:white;
+}
+.olivegreen {
+    background-color: #d2dfd2;
+    color:black;
+}
+.lightblue {
+    background-color: #8BBACC;
+    color:black;
+}
+.darkgreen {
+    background-color: #072308;
+    color:white;
+}
+
+/*Palette 2*/
+.papayawhip {
+    background-color: #ffbb9d;
+    color:black;
+}
+.navyblue {
+    background-color: #263a51;
+    color:white;
+}
+.steelblue {
+    background-color: #2481a2;
+    color:white;
+}
+
+/*Palette 3*/
+.beige {
+    background-color: #cfb197;
+    color:black;
+}
+.whitesmoke {
+    background-color: #e5e2df;
+    color:black;
+}
+.rosybrown {
+    background-color: #5b5352;
+    color:white;
+}
+.floralwhite {
+    background-color: ##FFFAF0;
+    color:black;
+}
+
+
+
+
+
+.playfair{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+}
+
+.robot{
+    font-family: 'Roboto', sans-serif;
+}
+
+.raleway{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+}
+
+.libre{
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 1.4rem;
+}
+
+.opensans{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: 700;
+}
