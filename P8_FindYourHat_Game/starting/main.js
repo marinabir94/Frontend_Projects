@@ -5,23 +5,55 @@ const hole = 'O';
 const fieldCharacter = '░';
 const pathCharacter = '*';
 
-
-// Random number from 1 - 10
-const numberToGuess = Math.floor(Math.random() * 10) + 1;
-// This variable is used to determine if the app should continue prompting the user for input
-let foundCorrectNumber = false;
- 
-while (!foundCorrectNumber) {
-  // Get user input
-  let guess = prompt('Guess a number from 1 to 10: ');
-  // Convert the string input to a number
-  guess = Number(guess);
- 
-  // Compare the guess to the secret answer and let the user know.
-  if (guess === numberToGuess) {
-    console.log('Congrats, you got it!');
-    foundCorrectNumber = true;
-  } else {
-    console.log('Sorry, guess again!');
+class Field {
+  constructor(field = [[]]){
+    this.field = field;
+    this.x = 0;
+    this.y = 0;
+    this.playerPosition = [0][0];
   }
+
+  runGame(){
+    let playig = true;
+    while(playing){
+      this.print();
+      this.askQuestion();
+      if(out of field){
+        console.log("Ouch! You went out of the field")
+        playing = false;
+      }elseif(in hole){
+        console.log("Ouch! You fell into a hole")
+        playing = false;
+      }else{
+        console.log("Congrats! You won the game!")
+        playing = false;
+      }
+    }
+  }
+  print() {
+    this.field.forEach((element) => {
+      console.log(element.join(""));
+    });
+  }
+
+  askQuestion(){
+    let direction = prompt('Which way now?');
+  }
+
+  move(direction){
+
+  }
+  
 }
+const myField = new Field([
+  ['*', '░', '░', 'O'],
+  ['░', 'O', '░', '░'],
+  ['░', '^', '░', '░'],
+]);
+
+
+myField.print();
+
+
+
+
