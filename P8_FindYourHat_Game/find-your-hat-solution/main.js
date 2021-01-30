@@ -17,8 +17,8 @@ class Field {
   runGame() {
     let playing = true;
     while (playing) {
-      this.print();
       this.askQuestion();
+      this.print();
       if (!this.isInBounds()) {
         console.log('Out of bounds instruction!');
         playing = false;
