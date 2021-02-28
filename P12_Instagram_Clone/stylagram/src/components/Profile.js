@@ -137,7 +137,7 @@ function Profile() {
               <strong>5</strong> posts
             </ParagraphText>
             <ParagraphText>
-              <strong>296</strong> followers
+              <strong>295</strong> followers
             </ParagraphText>
             <ParagraphText>
               <strong>269</strong> following
